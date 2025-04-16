@@ -53,11 +53,6 @@ Horologic MCP is a reliable Model Context Protocol (MCP) server for time and tim
    npm run build
    ```
 
-4. **Run the server:**
-   ```bash
-   npm start
-   ```
-
 ---
 
 ## Configuration

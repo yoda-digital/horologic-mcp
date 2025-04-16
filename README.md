@@ -31,13 +31,7 @@ Horologic MCP is a reliable Model Context Protocol (MCP) server for time and tim
    npm run build
    ```
 
-2. **Run the server:**
-
-   ```bash
-   npm start
-   ```
-
-3. **Configure your AI assistant:**
+2. **Configure your AI assistant:**
 
    **For Claude Desktop:**
    Add the following to your `claude_desktop_config.json`:
