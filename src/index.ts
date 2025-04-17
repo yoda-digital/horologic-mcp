@@ -95,12 +95,12 @@ async function main() {
   
   // Handle graceful shutdown
   process.on('SIGINT', async () => {
-    console.log('Shutting down server...');
+    console.error('Shutting down server...');
     await server.close();
     process.exit(0);
   });
   
-  console.log('Horologic MCP Server started');
+  console.error('Horologic MCP Server started');
 }
 
 // Start the server
